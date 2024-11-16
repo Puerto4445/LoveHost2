@@ -1,0 +1,2 @@
+scapy==2.6.1
+argparse==1.4.0

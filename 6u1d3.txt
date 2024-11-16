@@ -1,0 +1,19 @@
+"""  
+ARP Scanner Script  
+
+This script is used to discover devices on a network by sending ARP requests and capturing responses.  
+
+Usage:  
+    python arp_scanner.py -t <target_ip_range>  
+
+Parameters:  
+    -t, --target: The IP address or range to scan.  
+
+Functions:  
+    argparse_argument(): Parses command-line arguments and returns the target IP address or range.  
+    Scan_ip(ip): Sends an ARP request to the specified IP address and prints a summary of the results.  
+    main(): The entry point of the script, which calls the argparse_argument and Scan_ip functions.  
+
+Returns:  
+    A summary of the ARP scan results.  
+"""
